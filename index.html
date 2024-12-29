@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Counter</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="parent">
+        <input class="inp"  id="numberInput" placeholder="Enter your number" />
+        <button id="sendButton">Send</button>
+    </div>
+    <div class="counter">
+      <button id="decrementButton">-</button>
+      <span id="counterValue">19</span>
+      <button id="incrementButton">+</button>
+    </div>
+    <div class="color-selector">
+      <label for="colorPicker">Select color</label>
+      <input type="color" id="colorPicker" />
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
